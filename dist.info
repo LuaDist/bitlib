@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "bitlib"
+version = "26"
+
+desc = "Tiny library for bitwise operations"
+author = "Reuben Thomas"
+license = "MIT/X11"
+url = "http://luaforge.net/projects/bitlib/"
+maintainer = "Peter Drahoš"
+
+depends = {
+	"lua ~> 5.1"
+}
