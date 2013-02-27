@@ -1,0 +1,33 @@
+type = "x86_64"
+arch = "Ubuntu"
+author = "Reuben Thomas"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "Tiny library for bitwise operations"
+version = "26"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib/lua/bit.so]],
+}
+,
+Data = {
+[[share/bitlib/AUTHORS]],
+[[share/bitlib/COPYING]],
+[[share/bitlib/ChangeLog]],
+[[share/bitlib/NEWS]],
+[[share/bitlib/README]],
+}
+,
+Test = {
+[[share/bitlib/test/find_limits.lua]],
+[[share/bitlib/test/test.lua]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "bitlib"
+url = "http://luaforge.net/projects/bitlib/"
